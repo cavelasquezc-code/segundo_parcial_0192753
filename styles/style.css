@@ -847,8 +847,32 @@ footer h2 {
     width: 20%;
     height: auto;
     top: 0%;
-    left: 38%;
+    left: 45%;
     z-index: 1;
     object-fit: contain;
     pointer-events: none;
+}
+
+.story-visual .hojas-sillas {
+    position: absolute;
+    top: -40px;
+    left: -45px;
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+    z-index: 10;
+    pointer-events: none;
+}
+.story-visual .dorados-sillas {
+    position: absolute;
+    top: -95px;
+    left: -95px;
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+    z-index: 9;
+    pointer-events: none;
+}
+.story-visual {
+    position: relative;
 }
